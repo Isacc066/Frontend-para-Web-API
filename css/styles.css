@@ -1,0 +1,28 @@
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.cell-truncate {
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.navbar .nav-link.active {
+    font-weight: 600;
+    color: #fff;
+}
+
+.state-box {
+    border: 1px dashed var(--bs-border-color);
+    border-radius: .5rem;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--bs-secondary-color);
+}
